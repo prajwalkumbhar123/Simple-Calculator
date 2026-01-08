@@ -1,4 +1,5 @@
 # Simple-Calculator 
+This Is Simple Calculator Which Can do Any Work Like Addition, Subtraction, Multiplication, Division And Also Finde The Average
 
 def add(num1,num2):
      return num1 + num2 
