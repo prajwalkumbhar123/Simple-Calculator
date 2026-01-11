@@ -1,53 +1,27 @@
 # Simple-Calculator 
 This Is Simple Calculator Which Can do Any Work Like Addition, Subtraction, Multiplication, Division And Also Finde The Average
 
-def add(num1,num2):
-     return num1 + num2 
+🧮 Simple Python Calculator
+A lightweight, terminal-based calculator built with Python. This project demonstrates basic functional programming, user input handling, and conditional logic.
 
-def sub(num1,num2):
-     return num1 - num2 
- 
-def multiply(num1,num2):
-     return num1 * num2  
 
-def divide(num1,num2):
-     return num1 / num2 
- 
-def avg(num1,num2):
-     return (num1 + num2)/2  
+✨ Features
+-> This calculator supports five primary mathematical operations:
 
-print("Please select a operation:\n " 
-      "1. Addition\n" 
-      "2. Substraction\n" 
-      "3. Multiplication\n" 
-      "4. Division\n" 
-      "5. Average\n") 
+-> Addition: Sums two numbers.
 
-select = int(input("Select a operation from 1,2,3,4,5: ")) 
+-> Subtraction: Finds the difference between two numbers.
 
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
+-> Multiplication: Multiplies two numbers.
 
-if select == 1:
-     print(number1, "+", number2, "= ", 
-           add(number1, number2))
-     
-elif select == 2:
-     print(number1, "-", number2, "= ", 
-           sub(number1, number2)) 
-     
-elif select == 3:
-     print(number1, "*", number2, "= ", 
-           multiply(number1, number2))
-     
-elif select == 4:
-     print(number1, "/", number2, "= ", 
-           divide(number1, number2))
+-> Division: Divides the first number by the second.
 
-elif select == 5:
-     print("(",number1, "+", number2, ")", "/", "2", "= ", 
-           avg(number1, number2)) 
-    
-else:
-     print("Invalid operation! Pls select again!")
+-> Average: Calculates the mean value of two numbers.
+
+
+⚠️ Requirements
+Python 3.x installed.
+
+📝 License
+© 2026 Prajwal Sachin Kumbhar. Feel free to use and modify for educational purposes.
      
