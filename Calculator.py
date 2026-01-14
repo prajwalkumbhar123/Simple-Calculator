@@ -33,9 +33,10 @@ elif choice == 5 :
     div= (num1 + num2)/2
     print("Average of ", "(" ,num1, "+", num2,") /2 =", div )
     
-else:
-     print("Invalid operation! Pls select again!")
+else :
+    print("Invalid operation! Pls select again!" )
      
+
 
 
 
