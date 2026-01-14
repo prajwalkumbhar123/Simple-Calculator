@@ -25,17 +25,18 @@ elif choice == 3 :
     mul= num1 * num2
     print("Multiplication of ", num1, "*", num2,"=", mul )
      
-elif select == 4:
-     print(number1, "/", number2, "= ", \
-           divide(number1, number2))
+elif choice == 4 :
+    div= num1 / num2
+    print("Division of ", num1, "/", num2,"=", div )
 
-elif select == 5:
-     print("(",number1, "+", number2, ")", "/", "2", "= ", \
-           avg(number1, number2)) 
+elif choice == 5 :
+    div= (num1 + num2)/2
+    print("Average of ", "(" ,num1, "+", num2,") /2 =", div )
     
 else:
      print("Invalid operation! Pls select again!")
      
+
 
 
 
