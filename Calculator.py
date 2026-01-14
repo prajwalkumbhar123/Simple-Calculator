@@ -13,9 +13,9 @@ print("Enter Which Operation You Want To Perform: \n" \
 choice=int(input("Enter Your Choice(1-5):"))
 
 
-if select == 1:
-     print(number1, "+", number2, "= ", \
-           add(number1, number2))
+if choice == 1 :
+    add= num1 + num2
+    print("Addition of ", num1, "+", num2,"=", add )
      
 elif select == 2:
      print(number1, "-", number2, "= ", \
@@ -36,5 +36,6 @@ elif select == 5:
 else:
      print("Invalid operation! Pls select again!")
      
+
 
 
