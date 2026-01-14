@@ -3,17 +3,14 @@
 num1 =int(input("Enter First Number:"))
 num2 =int(input("Enter First Number:"))
 
-print("Please select a operation:\n " \
-      "1. Addition\n" \
-      "2. Substraction\n" \
-      "3. Multiplication\n" \
-      "4. Division\n" \
-      "5. Average\n") 
+print("Enter Which Operation You Want To Perform: \n" \
+"1. Addition\n"
+"2. Subtraction\n"
+"3. Multiplication\n"
+"4. Division\n"
+"5. Average")
 
-select = int(input("Select a operation from 1,2,3,4,5: ")) 
-
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
+choice=int(input("Enter Your Choice(1-5):"))
 
 
 if select == 1:
@@ -39,4 +36,5 @@ elif select == 5:
 else:
      print("Invalid operation! Pls select again!")
      
+
 
