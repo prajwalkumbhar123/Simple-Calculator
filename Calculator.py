@@ -1,20 +1,7 @@
 # This is simple calculator
 
-def add(num1,num2):
-     return num1 + num2 
-
-def sub(num1,num2):
-     return num1 - num2 
-
-def multiply(num1,num2):
-     return num1 * num2  
- 
-def divide(num1,num2):
-     return num1 / num2 
-
-
-def avg(num1,num2):
-     return (num1 + num2)/2  
+num1 =int(input("Enter First Number:"))
+num2 =int(input("Enter First Number:"))
 
 print("Please select a operation:\n " \
       "1. Addition\n" \
@@ -52,3 +39,4 @@ elif select == 5:
 else:
      print("Invalid operation! Pls select again!")
      
+
