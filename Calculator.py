@@ -17,13 +17,13 @@ if choice == 1 :
     add= num1 + num2
     print("Addition of ", num1, "+", num2,"=", add )
      
-elif select == 2:
-     print(number1, "-", number2, "= ", \
-           sub(number1, number2)) 
-     
-elif select == 3:
-     print(number1, "*", number2, "= ", \
-           multiply(number1, number2))
+elif choice == 2 :
+    sub= num1 - num2
+    print("Subtraction of ", num1, "-", num2,"=", sub )
+
+elif choice == 3 :
+    mul= num1 * num2
+    print("Multiplication of ", num1, "*", num2,"=", mul )
      
 elif select == 4:
      print(number1, "/", number2, "= ", \
@@ -36,6 +36,7 @@ elif select == 5:
 else:
      print("Invalid operation! Pls select again!")
      
+
 
 
 
