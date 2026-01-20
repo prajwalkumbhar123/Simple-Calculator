@@ -7,15 +7,10 @@ A lightweight, terminal-based calculator built with Python. This project demonst
 
 ✨ Features
 -> This calculator supports five primary mathematical operations:
-
 -> Addition: Sums two numbers.
-
 -> Subtraction: Finds the difference between two numbers.
-
 -> Multiplication: Multiplies two numbers.
-
 -> Division: Divides the first number by the second.
-
 -> Average: Calculates the mean value of two numbers.
 
 
