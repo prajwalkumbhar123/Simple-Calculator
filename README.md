@@ -1,23 +1,52 @@
-# Simple-Calculator 
-This Is Simple Calculator Which Can do Any Work Like Addition, Subtraction, Multiplication, Division And Also Finde The Average
+# 🧮 Simple Calculator in Python
 
-🧮 Simple Python Calculator 
+This is a basic **command-line calculator** built using Python.  
+It allows users to perform common arithmetic operations on two numbers.
 
-A lightweight, terminal-based calculator built with Python. This project demonstrates basic functional programming, user input handling, and conditional logic.
+## 🚀 Features
 
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Average calculation
+- User-friendly menu-driven interface
 
-✨ Features
+## 🛠️ Technologies Used
 
--> This calculator supports five primary mathematical operations:
--> Addition: Sums two numbers.
--> Subtraction: Finds the difference between two numbers.
--> Multiplication: Multiplies two numbers.
--> Division: Divides the first number by the second.
--> Average: Calculates the mean value of two numbers.
+- Python 3
 
+## 📌 How It Works
 
-⚠️ Requirements
+1. The user enters two numbers.
+2. The user selects an operation from the menu.
+3. The program performs the chosen calculation.
+4. The result is displayed on the screen.
 
-Python 3.x installed.
+## 📄 Source Code
 
-     
+```python
+num1 = int(input("Enter First Number: "))
+num2 = int(input("Enter Second Number: "))
+
+print("Enter Which Operation You Want To Perform:\n"
+      "1. Addition\n"
+      "2. Subtraction\n"
+      "3. Multiplication\n"
+      "4. Division\n"
+      "5. Average")
+
+choice = int(input("Enter Your Choice (1-5): "))
+
+if choice == 1:
+    print("Addition =", num1 + num2)
+elif choice == 2:
+    print("Subtraction =", num1 - num2)
+elif choice == 3:
+    print("Multiplication =", num1 * num2)
+elif choice == 4:
+    print("Division =", num1 / num2)
+elif choice == 5:
+    print("Average =", (num1 + num2) / 2)
+else:
+    print("Invalid operation! Please try again.")
