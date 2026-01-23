@@ -35,10 +35,3 @@ elif choice == 5 :
     
 else :
     print("Invalid operation! Pls select again!" )
-     
-
-
-
-
-
-
