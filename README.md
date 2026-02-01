@@ -1,4 +1,4 @@
-# 🧮 Simple Calculator in Python
+# 🧮 Simple Calculator in Python.
 
 This is a basic **command-line calculator** built using Python.  
 It allows users to perform common arithmetic operations on two numbers.
