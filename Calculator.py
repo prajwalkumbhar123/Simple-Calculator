@@ -1,4 +1,3 @@
-# This is simple calculator
 
 num1 =int(input("Enter First Number:"))
 num2 =int(input("Enter First Number:"))
@@ -35,3 +34,4 @@ elif choice == 5 :
     
 else :
     print("Invalid operation! Pls select again!" )
+
